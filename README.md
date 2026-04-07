@@ -1,9 +1,9 @@
 # hwpreuse
 hwpx문서 양식을 재사용하는 프로그램
-# requirements.txt 파일에 의존패키지 정보 있음
+requirements.txt 파일에 의존패키지 정보 있음
 
-# openai에 맞춰서 만들어 짐
-# your_api_key에 발급받은 api를 입력하고 실행하면 됨
+openai에 맞춰서 만들어 짐
+your_api_key에 발급받은 api를 입력하고 실행하면 됨
 client = OpenAI(
     api_key="your_api_key",
     base_url="https://api.openai.com/v1/chat/completions"
